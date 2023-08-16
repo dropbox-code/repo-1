@@ -17,12 +17,13 @@ limitations under the License.
 package registry
 
 import (
+	"errors"
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/containerd/containerd/errdefs"
 	"github.com/stretchr/testify/suite"
+	"oras.land/oras-go/v2/content"
 )
 
 type HTTPRegistryClientTestSuite struct {
@@ -60,7 +61,7 @@ func (suite *HTTPRegistryClientTestSuite) Test_4_ManInTheMiddle() {
 	// returns content that does not match the expected digest
 	_, err := suite.RegistryClient.Pull(ref)
 	suite.NotNil(err)
-	suite.True(errdefs.IsFailedPrecondition(err))
+	suite.True(errors.Is(err, content.ErrMismatchedDigest))
 }
 
 func TestHTTPRegistryClientTestSuite(t *testing.T) {

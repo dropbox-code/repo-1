@@ -1,0 +1,21 @@
+version: 3
+
+vars:
+  OUT_DIR: ../bin
+  SELPROJ_BIN: selproj
+
+tasks:
+  build:
+    cmds:
+      - task: build-selproj
+  build-selproj:
+    dir: selproj
+    cmds:
+      - go build -o {{ .OUT_DIR }}/{{ .SELPROJ_BIN }}
+  test:
+    cmds:
+      - task: test-selproj
+  test-selproj:
+    dir: selproj
+    cmds:
+      - go test -v ./...

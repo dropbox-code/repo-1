@@ -21,3 +21,6 @@ jobs:
         with:
           go-version: stable
       - uses: trunk-io/trunk-action/upgrade@v1
+        with:
+          prefix: "ci(deps): "
+          lowercase-title: true

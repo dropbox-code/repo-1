@@ -1,3 +1,5 @@
+<!-- trunk-ignore-all(markdownlint/MD024) -->
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -12,6 +14,7 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ### Changed
 
 - Trunk Upgrade CI job is now compliant with commitlint.
+- Disable issue MD024 in changelog.
 
 <!-- ### Deprecated -->
 

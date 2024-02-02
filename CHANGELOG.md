@@ -9,13 +9,19 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 <!-- ### Added -->
 
-<!-- ### Changed -->
+### Changed
+
+- Trunk Upgrade CI job is now compliant with commitlint.
 
 <!-- ### Deprecated -->
 
-<!-- ### Removed -->
+### Removed
 
-<!-- ### Fixed -->
+- Enforce Changelog CI job won't run on push because it's not supported.
+
+### Fixed
+
+- Go version discrepancy in CodeQL CI job.
 
 <!-- ### Security -->
 

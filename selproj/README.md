@@ -26,6 +26,8 @@ There are no dependencies besides Go itself.
 
 ## Testing
 
+Run the following command in the root of the repository to run the tests:
+
 ```bash
-go test -v -tags tools ./...
+task test-selproj
 ```

@@ -1,4 +1,4 @@
-module github.com/aiven/terraform-provider-aiven/tools/selproj
+module github.com/aiven/go-utils/selproj
 
 go 1.21
 

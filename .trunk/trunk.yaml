@@ -11,7 +11,7 @@ lint:
     - checkov@3.2.22
     - osv-scanner@1.6.2
     - trivy@0.49.1
-    - trufflehog@3.67.6
+    - trufflehog@3.67.7
     - actionlint@1.6.26
     - git-diff-check
     - gitleaks@8.18.2

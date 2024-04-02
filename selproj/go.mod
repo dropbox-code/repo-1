@@ -3,7 +3,7 @@ module github.com/aiven/go-utils/selproj
 go 1.21
 
 require (
-	github.com/aiven/aiven-go-client/v2 v2.14.0
+	github.com/aiven/aiven-go-client/v2 v2.15.0
 	github.com/stretchr/testify v1.9.0
 )
 

@@ -1,17 +1,17 @@
 version: 0.1
 cli:
-  version: 1.21.0
+  version: 1.22.0
 plugins:
   sources:
     - id: trunk
-      ref: v1.4.5
+      ref: v1.5.0
       uri: https://github.com/trunk-io/plugins
 lint:
   enabled:
-    - checkov@3.2.71
+    - checkov@3.2.74
     - osv-scanner@1.7.2
-    - trivy@0.50.1
-    - trufflehog@3.71.0
+    - trivy@0.50.4
+    - trufflehog@3.74.0
     - actionlint@1.6.27
     - git-diff-check
     - gitleaks@8.18.2

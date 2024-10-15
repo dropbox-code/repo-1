@@ -305,7 +305,7 @@ jobs:
     - continue-on-error: true
       if: github.ref == 'refs/heads/main'
       name: Deploy website (main build)
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       with:
         external_repository: backpack/backpack.github.io
         keep_files: false
@@ -328,7 +328,7 @@ jobs:
       if: github.ref != 'refs/heads/main' && github.actor != 'dependabot[bot]' &&
         github.repository == github.event.pull_request.head.repo.full_name
       name: Deploy website (pull request build)
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       with:
         external_repository: backpack/prs
         keep_files: true

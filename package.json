@@ -80,7 +80,7 @@
     "@skyscanner/bpk-foundations-web": "^8.5.0",
     "@skyscanner/bpk-svgs": "^14.3.6",
     "@skyscanner/eslint-config-skyscanner": "^12.0.0",
-    "@skyscanner/stylelint-config-skyscanner": "^6.0.0",
+    "@skyscanner/stylelint-config-skyscanner": "^11.1.0",
     "autoprefixer": "^9.8.8",
     "babel-jest": "^26.5.2",
     "babel-loader": "^8.0.6",

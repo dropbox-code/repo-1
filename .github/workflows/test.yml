@@ -1289,22 +1289,22 @@ jobs:
       name: Split pkgs into 4 files
       run: split -d -n l/4 pkgs.txt pkgs.txt.part.
     - continue-on-error: true
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ github.sha }}-00
         path: ./pkgs.txt.part.00
     - continue-on-error: true
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ github.sha }}-01
         path: ./pkgs.txt.part.01
     - continue-on-error: true
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ github.sha }}-02
         path: ./pkgs.txt.part.02
     - continue-on-error: true
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ github.sha }}-03
         path: ./pkgs.txt.part.03
@@ -1585,7 +1585,7 @@ jobs:
 
         '
     - continue-on-error: true
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ github.sha }}-${{ matrix.part }}-coverage
         path: ./${{ matrix.part }}profile.out

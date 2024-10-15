@@ -102,7 +102,7 @@
     "eslint_d": "^11.1.1",
     "file-loader": "^6.0.0",
     "flow-bin": "^0.135.0",
-    "flow-typed": "^3.2.1",
+    "flow-typed": "^4.0.0",
     "fuse.js": "^6.4.1",
     "globby": "^11.0.1",
     "gray-matter": "^4.0.2",

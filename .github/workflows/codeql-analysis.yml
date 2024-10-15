@@ -253,7 +253,7 @@ jobs:
       name: Checkout repository
       uses: actions/checkout@v3
     - continue-on-error: true
-      uses: technote-space/get-diff-action@v6.1.0
+      uses: technote-space/get-diff-action@v6.1.2
       with:
         PATTERNS: '**/**.go
 

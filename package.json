@@ -44,7 +44,7 @@
 		"@nextcloud/logger": "^2.1.0",
 		"@nextcloud/moment": "^1.1.1",
 		"@nextcloud/paths": "^2.1.0",
-		"@nextcloud/router": "^2.0.0",
+		"@nextcloud/router": "^3.0.1",
 		"@nextcloud/sharing": "^0.1.0",
 		"@nextcloud/vue": "^4.2.0",
 		"b64-to-blob": "^1.2.19",

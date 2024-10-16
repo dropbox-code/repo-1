@@ -247,7 +247,7 @@ jobs:
     - continue-on-error: true
       id: fetch-branch-names
       name: Fetch branch names
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         script: "const pulls = await github.paginate('GET /repos/:owner/:repo/pulls',\
@@ -318,7 +318,7 @@ jobs:
       env:
         PRS_STRING: ${{ steps.fetch-branch-names.outputs.prs-string }}
       name: Create Combined Pull Request
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         script: "const prString = process.env.PRS_STRING;\nconst body = 'This PR was\

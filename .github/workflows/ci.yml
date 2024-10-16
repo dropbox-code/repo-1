@@ -247,7 +247,7 @@ jobs:
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
       name: Setup Maven Action
-      uses: s4u/setup-maven-action@v1.8.0
+      uses: s4u/setup-maven-action@v1.15.0
       with:
         checkout-fetch-depth: 0
         java-distribution: temurin

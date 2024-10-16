@@ -1585,7 +1585,7 @@ jobs:
       uses: prometheus/promci@v0.0.2
     - continue-on-error: true
       name: Install nodejs
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version-file: web/ui/.nvmrc
         registry-url: https://registry.npmjs.org

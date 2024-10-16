@@ -248,7 +248,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@v3
     - continue-on-error: true
-      uses: prometheus/promci@v0.0.2
+      uses: prometheus/promci@v0.4.4
     - continue-on-error: true
       uses: ./.github/promci/actions/build
       with:
@@ -512,7 +512,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@v3
     - continue-on-error: true
-      uses: prometheus/promci@v0.0.2
+      uses: prometheus/promci@v0.4.4
     - continue-on-error: true
       uses: ./.github/promci/actions/build
       with:
@@ -1054,7 +1054,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@v3
     - continue-on-error: true
-      uses: prometheus/promci@v0.0.2
+      uses: prometheus/promci@v0.4.4
     - continue-on-error: true
       uses: ./.github/promci/actions/publish_main
       with:
@@ -1319,7 +1319,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@v3
     - continue-on-error: true
-      uses: prometheus/promci@v0.0.2
+      uses: prometheus/promci@v0.4.4
     - continue-on-error: true
       uses: ./.github/promci/actions/publish_release
       with:
@@ -1582,7 +1582,7 @@ jobs:
       name: Checkout
       uses: actions/checkout@v3
     - continue-on-error: true
-      uses: prometheus/promci@v0.0.2
+      uses: prometheus/promci@v0.4.4
     - continue-on-error: true
       name: Install nodejs
       uses: actions/setup-node@v3
@@ -1868,7 +1868,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@v3
     - continue-on-error: true
-      uses: prometheus/promci@v0.0.2
+      uses: prometheus/promci@v0.4.4
     - continue-on-error: true
       uses: ./.github/promci/actions/setup_environment
     - continue-on-error: true
@@ -2657,7 +2657,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@v3
     - continue-on-error: true
-      uses: prometheus/promci@v0.0.2
+      uses: prometheus/promci@v0.4.4
     - continue-on-error: true
       uses: ./.github/promci/actions/setup_environment
       with:

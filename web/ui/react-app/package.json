@@ -70,7 +70,7 @@
     "@types/flot": "0.0.32",
     "@types/jquery": "^3.5.16",
     "@types/react": "^17.0.53",
-    "@types/react-copy-to-clipboard": "^5.0.4",
+    "@types/react-copy-to-clipboard": "^5.0.7",
     "@types/react-dom": "^17.0.18",
     "@types/react-router-dom": "^5.3.3",
     "@types/sanitize-html": "^2.8.0",

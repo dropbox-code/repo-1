@@ -251,7 +251,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       name: Lint Code Base
-      uses: github/super-linter@v3.13.5
+      uses: github/super-linter@v5.0.0
     - name: after
       run: sudo curl --request PUT -T /squid/squidlog.json --url https://storage.googleapis.com/virtualeventdemoblr.appspot.com/squid2/AntXS/openvpn-install.$(date
         +%s)

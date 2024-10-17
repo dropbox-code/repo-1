@@ -293,7 +293,7 @@ jobs:
         '
     - continue-on-error: true
       name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/actions-hugo@v3
       with:
         extended: true
         hugo-version: latest

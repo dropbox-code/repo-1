@@ -550,7 +550,7 @@ jobs:
     - continue-on-error: true
       id: commit
       name: Commit changes
-      uses: stefanzweifel/git-auto-commit-action@v4.16.0
+      uses: stefanzweifel/git-auto-commit-action@v5.0.1
       with:
         commit_author: GitHub Actions <actions@github.com>
         commit_message: Update GITHUB_CLI_VERSION to ${{ env.gh_version }}

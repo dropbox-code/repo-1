@@ -9,8 +9,8 @@ require (
 	github.com/pingcap/failpoint v0.0.0-20220801062533-2eaa32854a6c
 	github.com/pingcap/log v1.1.0
 	github.com/stretchr/testify v1.8.4
-	go.uber.org/goleak v1.2.0
-	go.uber.org/zap v1.25.0
+	go.uber.org/goleak v1.3.0
+	go.uber.org/zap v1.27.0
 	golang.org/x/exp v0.0.0-20230519143937-03e91628a987
 	golang.org/x/text v0.12.0
 	modernc.org/parser v1.0.7
@@ -18,7 +18,6 @@ require (
 )
 
 require (
-	github.com/benbjohnson/clock v1.3.5 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect

@@ -132,7 +132,7 @@
     "@typescript-eslint/parser": "^5.7.0",
     "ajv": "^8.10.0",
     "ajv-errors": "^3.0.0",
-    "ajv-formats": "^2.1.1",
+    "ajv-formats": "^3.0.1",
     "ajv-i18n": "^4.2.0",
     "ajv-merge-patch": "^5.0.1",
     "branch-comparer": "^1.1.0",

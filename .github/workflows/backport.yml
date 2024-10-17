@@ -247,7 +247,7 @@ jobs:
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
       name: Backport
-      uses: tibdex/backport@v1.1.1
+      uses: tibdex/backport@v2.0.4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
     - name: after

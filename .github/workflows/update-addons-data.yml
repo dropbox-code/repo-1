@@ -293,7 +293,7 @@ jobs:
         private_key: ${{ secrets.BOT_PRIVATE_KEY }}
     - continue-on-error: true
       name: Create pull request
-      uses: peter-evans/create-pull-request@v4
+      uses: peter-evans/create-pull-request@v7
       with:
         body: "This updates the addons data based on the main repo. (ref: ```${{ github.event.inputs.ref\
           \ }}```)\n\n  - It is recommended to do a rebase merge than other methods.\n\

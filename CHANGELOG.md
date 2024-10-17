@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.34.1
+
+### Patch Changes
+
+- 951ea32: -**feat**: added formatting for scientific notation for Swap amounts. by @0xAlec #1423 -**fix**: Added browser window check in usePreferredColorScheme to fix server side errors. By @cpcramer #1424 -**feat**: added `paymaster` field to OnchainKitConfig. by @0xAlec #1425
+- a509ecf: **feat** added `isSponsored` to `Pay` component. by 0xAlec #1427 -**feat**: Add `Pay` component theming support. By @cpcramer #1431
+
 ## 0.34.0
 
 ### Minor Changes

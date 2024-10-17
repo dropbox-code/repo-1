@@ -285,7 +285,7 @@ jobs:
       if: steps.server_os.outputs.value == 'debian' || steps.server_os.outputs.value
         == 'ubuntu'
       name: Setup remote server (Debian/Ubuntu)
-      uses: appleboy/ssh-action@v0.1.4
+      uses: appleboy/ssh-action@v1.1.0
       with:
         host: ${{ steps.server_ip.outputs.value }}
         key: ${{ secrets.SSH_KEY }}
@@ -294,7 +294,7 @@ jobs:
     - continue-on-error: true
       if: steps.server_os.outputs.value == 'fedora'
       name: Setup remote server (Fedora)
-      uses: appleboy/ssh-action@v0.1.4
+      uses: appleboy/ssh-action@v1.1.0
       with:
         host: ${{ steps.server_ip.outputs.value }}
         key: ${{ secrets.SSH_KEY }}
@@ -303,7 +303,7 @@ jobs:
     - continue-on-error: true
       if: steps.server_os.outputs.value == 'centos'
       name: Setup remote server (CentOS)
-      uses: appleboy/ssh-action@v0.1.4
+      uses: appleboy/ssh-action@v1.1.0
       with:
         host: ${{ steps.server_ip.outputs.value }}
         key: ${{ secrets.SSH_KEY }}
@@ -311,7 +311,7 @@ jobs:
         username: root
     - continue-on-error: true
       name: Download repo and checkout current commit
-      uses: appleboy/ssh-action@v0.1.4
+      uses: appleboy/ssh-action@v1.1.0
       with:
         host: ${{ steps.server_ip.outputs.value }}
         key: ${{ secrets.SSH_KEY }}
@@ -321,7 +321,7 @@ jobs:
         username: root
     - continue-on-error: true
       name: Run openvpn-install.sh in headless mode
-      uses: appleboy/ssh-action@v0.1.4
+      uses: appleboy/ssh-action@v1.1.0
       with:
         host: ${{ steps.server_ip.outputs.value }}
         key: ${{ secrets.SSH_KEY }}
